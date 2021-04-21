@@ -1,3 +1,5 @@
+import './Categories.css'
+
 const Categories = () => {
     return(
         <div className='Categories'>
@@ -7,6 +9,9 @@ const Categories = () => {
                     <h1>List 1</h1>
                 </div>
                 <ol className="Categories-Main-Display">
+                    <li>A Boy's Name</li>
+                    <li>A Boy's Name</li>
+                    <li>A Boy's Name</li>
                     <li>A Boy's Name</li>
                 </ol>
             </div>

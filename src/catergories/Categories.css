@@ -1,0 +1,51 @@
+.Categories {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.Categories-Main {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    width: 70%;
+}
+
+.Categories-Main-Top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.Categories-Main-Display {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 60px;
+    font-size: 30px;
+}
+
+.Categories-Secondary {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    border: 2px solid blue;
+    font-size: 30px;
+}
+
+.Categories-Secondary:hover {
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+.Categories-Secondary-H1 {
+    text-align: center;
+}
+
+.hide {
+    background-color: black;
+}
