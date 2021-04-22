@@ -8,6 +8,7 @@ const Letter = () => {
 
     const changeLetter = () => {
         const randomIndex = Math.floor(Math.random() * letters.length);
+        setIndex(randomIndex);
     }
 
     return(
